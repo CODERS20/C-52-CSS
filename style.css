@@ -1,0 +1,61 @@
+h1 {
+    color: #da0e9d;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+* {
+    border: #D88EB5;
+    border-radius: 100px;
+}
+
+.HEADER{
+   
+    background-color: rgb(64, 215, 241);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.MAIN{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+a:link{
+    color: rgb(138, 247, 134);
+}
+
+a:visited{
+    color: rgb(248, 159, 58)
+}
+
+.secondary p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: blue;
+    opacity: 0;
+}
+
+.secondary{
+    position: relative;
+}
+
+.secondary:hover p{
+    opacity: 1;
+}
+
+.secondary:hover img{
+    opacity:0.5
+}
